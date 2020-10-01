@@ -1,0 +1,104 @@
+/*
+Rounded Boxed Skin
+*/
+
+/* Menu items */
+.menuzord-menu >  li  div {
+  padding: 8px 16px;
+  border-radius: 30px;
+}
+
+/* Active/hover state (Menu items) */
+.menuzord-menu > li.active  div,
+.menuzord-menu > li:hover div {
+  background: #333;
+  color: #fff;
+}
+
+/* Dropdown items */
+.menuzord .menuzord-menu ul.dropdown li:hover  div {
+  background: #333;
+  color: #fff;
+}
+
+/* Search field */
+.menuzord-menu > li.search form {
+  padding: 2px 16px;
+}
+
+/* Color schemes */
+/* blue */
+.menuzord.blue .menuzord-menu > li.active  div,
+.menuzord.blue .menuzord-menu > li:hover  div,
+.menuzord.blue .menuzord-menu ul.dropdown li:hover  div {
+  /* background: #5D9CEC;  */
+  background: orange;
+  color: #fff;
+}
+/* green */
+.menuzord.green .menuzord-menu > li.active div,
+.menuzord.green .menuzord-menu > li:hover  div,
+.menuzord.green .menuzord-menu  li:hover div {
+  background: orange;
+  color: #fff;
+}
+/* red */
+.menuzord.red .menuzord-menu > li.active  div,
+.menuzord.red .menuzord-menu > li:hover div,
+.menuzord.red .menuzord-menu ul.dropdown li:hover  div {
+  background: #fc6e51;
+  color: #fff;
+}
+/* orange */
+.menuzord.orange .menuzord-menu > li.active  div,
+.menuzord.orange .menuzord-menu > li:hover div,
+.menuzord.orange .menuzord-menu ul.dropdown li:hover div {
+  background: #ff853f;
+  color: #fff;
+}
+/* yellow */
+.menuzord.yellow .menuzord-menu > li.active  div,
+.menuzord.yellow .menuzord-menu > li:hover  div,
+.menuzord.yellow .menuzord-menu ul.dropdown li:hover div {
+  background: #ffce54;
+  color: #fff;
+}
+/* purple */
+.menuzord.purple .menuzord-menu > li.active  div,
+.menuzord.purple .menuzord-menu > li:hover  div,
+.menuzord.purple .menuzord-menu ul.dropdown li:hover  div {
+  background: #ac92ec;
+  color: #fff;
+}
+/* pink */
+.menuzord.pink .menuzord-menu > li.active  div,
+.menuzord.pink .menuzord-menu > li:hover  div,
+.menuzord.pink .menuzord-menu ul.dropdown li:hover div {
+  background: #ec87c0;
+  color: #fff;
+}
+
+@media (min-width: 1200px) {
+  header#header.header-layout-type-header-2rows-floating-header
+    .menuzord-menu
+    > li {
+    padding: 20px 0;
+  }
+  header#header.header-layout-type-header-2rows-floating-header
+    .menuzord-menu
+    ul.dropdown {
+    top: 100%;
+  }
+}
+
+/* Mobile mode (Responsive mode) */
+@media (max-width: 1199.98px) {
+  /* Menu items */
+  .menuzord-responsive .menuzord-menu > li {
+    padding: 0;
+  }
+  .menuzord-responsive .menuzord-menu > li div {
+    padding: 12px 20px !important;
+    border-radius: 0;
+  }
+}
