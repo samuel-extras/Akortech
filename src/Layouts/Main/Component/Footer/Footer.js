@@ -1,6 +1,9 @@
 import React from "react";
 import { SocialLink } from "../../../../Components";
 import akortech from "../../../../Assets/images/include/akortech-logo.png";
+import blog1 from "../../../../Assets/images/blog/1.jpg";
+import blog2 from "../../../../Assets/images/blog/2.jpg";
+import blog3 from "../../../../Assets/images/blog/3.jpg";
 import { Link } from "react-router-dom";
 
 const Footer = () => (
@@ -58,7 +61,7 @@ const Footer = () => (
                     <img
                       width="100"
                       height="70"
-                      src="images/blog/3.jpg"
+                      src={blog3}
                       className=""
                       alt=""
                     />
@@ -82,7 +85,7 @@ const Footer = () => (
                     <img
                       width="100"
                       height="70"
-                      src="images/blog/2.jpg"
+                      src={blog2}
                       className=""
                       alt=""
                     />
@@ -106,7 +109,7 @@ const Footer = () => (
                     <img
                       width="100"
                       height="70"
-                      src="images/blog/1.jpg"
+                      src={blog1}
                       className=""
                       alt=""
                     />

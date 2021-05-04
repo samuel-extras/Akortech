@@ -15,7 +15,7 @@ const SocialLink = ()=>(
     ></a>
   </li>
   <li>
-    <a className="social-link" href="#!"
+    <a className="social-link" href="https://twitter.com/akortechservice"
       ><i className="fa fa-twitter"></i
     ></a>
   </li>
