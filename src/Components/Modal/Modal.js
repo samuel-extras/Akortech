@@ -4,7 +4,6 @@ import Modal from "react-modal";
 import { CustomButton } from "..";
 import FormInput from "../FormInput";
 import Textarea from "../TextArea/Textarea";
-import Modeno from "./Modal2";
 
 const customStyles = {
   content: {
@@ -119,7 +118,7 @@ function Mode() {
               name="subject"
               type="text"
               placeholder="Subject*"
-              required
+n              required
               onChange={(e) => setSubject(e.target.value)}
               grid="col-md-12"
             />
